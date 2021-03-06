@@ -12,6 +12,6 @@ ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 RUN useradd -ms /bin/bash ubuntu
 USER ubuntu
 WORKDIR /home/ubuntu
-RUN git clone -b dockerfix https://github.com/angelddaz/de-devtools.git /home/ubuntu/de-devtools/
+RUN git clone -b dockerfix https://github.com/ocelotdata/devtools.git /home/ubuntu/devtools/
 RUN echo 'root:docker' | chpasswd
-RUN ansible-playbook /home/ubuntu/de-devtools/playbooks/main.yaml -vvv --ask-become-pass
+RUN ansible-playbook /home/ubuntu/devtools/iac/playbooks/main.yaml -vvv --ask-become-pass
