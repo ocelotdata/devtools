@@ -79,7 +79,7 @@ git clone https://github.com/ocelotdata/devtools ~/devtools
 # see ./Makefile for make 
 cd ~/devtools/iac && make local
 ```
-<img src="https://github.com/angelddaz/de-devtools/blob/master/images/20200406screenshot.png" width="70%" height="70%">
+<img src="https://github.com/ocelotdata/devtools/blob/main/images/ansible.png" width="70%" height="70%">
 
 ### Docker containers for postgres and airflow
 Install Docker + Docker Compose in an AWS EC2 Instance
