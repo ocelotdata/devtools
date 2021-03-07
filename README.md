@@ -25,7 +25,7 @@ All tools are open source or free tiers. Reference: https://free-for.dev/#/
 #### Code Format Standards
 Following Ansible Syntax best practices with built in linter
 ```bash
-ansible-lint main.yml
+ansible-lint ./iac/main.yml
 ```
 
 ## Development Environment Deployment
